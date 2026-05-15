@@ -22,7 +22,7 @@ let produtos = [
 
 func listarProdutos() {
     for produto in produtos {
-        print("\(produto.id) - \(produto.nome): R$ \(produto.valor)")
+        print("\(produto.nome): R$ \(produto.valor)")
     }
 }
 
