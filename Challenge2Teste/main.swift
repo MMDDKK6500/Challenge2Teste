@@ -17,7 +17,6 @@ struct Produto {
 let produtos = [
     Produto(nome: "Caneca", id: 12, valor: 19.99),
     Produto(nome: "Copo", id: 13, valor: 9.99),
-    Produto(nome: "Lapis", id: 14, valor: 1.99),
 ]
 
 func listarProdutos() {
